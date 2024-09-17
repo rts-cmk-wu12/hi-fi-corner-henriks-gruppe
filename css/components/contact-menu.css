@@ -1,0 +1,15 @@
+.contact-menu {
+    height: var(--menu-height);
+    display: flex;
+    justify-content: right;
+    padding: 0 var(--default-padding-x);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-menu__list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+    list-style: none;
+}

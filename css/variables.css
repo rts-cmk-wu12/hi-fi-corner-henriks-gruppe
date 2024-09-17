@@ -1,5 +1,25 @@
 :root {
-    --default-font: 'Museo Sans Rounded';
+    --default-font: 'Museo Sans Rounded', sans-serif;
+
+    --default-padding-x: 2rem;
     
-    --color-gold: #a39161;
+    --primary-text-color: white;
+    --primary-link-color: white;
+    --primary-link-hover-color: #a39161;
+    --primary-heading-color: white;
+
+    --secondary-text-color: black;
+    --accent-heading-color: #a39161;
+
+    --navigation-border-color: #3c3523;
+    --navigation-background-color: black;
+
+    --navigation-button-border-color: #0f7aed;
+    --navigation-button-background: linear-gradient(#32adec, #1391eb);
+
+    --footer-background-color: #a39161;
+
+
+
+    --menu-height: 4.25rem;
 }

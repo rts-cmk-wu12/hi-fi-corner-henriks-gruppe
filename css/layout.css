@@ -1,7 +1,13 @@
+body {
+    font-family: var(--default-font);
+}
+
+
 body.front-page {
     background-image: url(../images/layout/speaker.jpg);
     background-attachment: fixed;
+    background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
-    background-color: #7d5d49;
+    background-color: #76665b;
 }
