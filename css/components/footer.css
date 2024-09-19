@@ -1,15 +1,15 @@
 .footer {
     background-color: var(--footer-background-color);
-    padding: .8rem 1.2rem;
+    padding: 1rem 1.2rem;
 
     display: flex;
     color: var(--primary-link-color);
     font-size: .7rem;  
-    gap: 2rem; 
+    gap: 2rem;
 }
 
 .footer__address {
-    font-size: .5rem;
+    font-size: .7rem;
     font-style: normal;
     font-weight: 500;
     color: var(--secondary-text-color);
@@ -31,7 +31,8 @@
 .footer__logos {
     display: flex;
     margin-left: auto;
-    gap: .2rem;
+    gap: .5rem;
+    align-items: start;
 }
 
 .footer__logo {
@@ -40,6 +41,7 @@
 
 .footer__socials {
     display: flex;
+    align-items: start;
     gap: .2rem;
 }
 

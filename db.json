@@ -1,0 +1,92 @@
+{
+    "products": {
+        "amplifiers": [
+            {
+                "name": "Creek OBH-22 Passive Preamp",
+                "brand": "Creek Audio",
+                "manufacturer": "Creek Audio Ltd.",
+                "price": 299,
+                "description": "The Creek OBH-22 is a high-quality passive preamplifier designed to provide input selection and volume adjustment to a Hi-Fi system. It features a motorized volume potentiometer, two stereo relays for input selection, a tape loop, and a muting relay. The unit can be controlled via an infra-red remote control or directly from the front panel. It is purely passive, introducing no gain or distortion into the signal path.",
+                "color_options": [
+                    "Black"
+                ],
+                "specifications": {
+                    "Input Impedance": "<20k Ohm",
+                    "Output Impedance": "20k Ohm",
+                    "Separation": "> 80 dB @ 1kHz",
+                    "Attenuation": "0 - 90 dB",
+                    "Inputs": "3 Stereo pairs, including Tape",
+                    "Outputs": "2 Stereo pairs, 1 fixed, 1 variable",
+                    "Relay Muting Factor": "> 90dB",
+                    "Weight": "610g",
+                    "Dimensions": "150 x 100 x 66 mm"
+                },
+                "warranty": "2 years"
+            },
+            {
+                "name": "Parasound Classic 7100",
+                "brand": "Parasound",
+                "manufacturer": "Parasound Products, Inc.",
+                "price": 999,
+                "description": "The Parasound Classic 7100 is a 7.1-channel surround controller designed for high-performance home theater systems. It features a wide range of audio and video inputs and outputs, including digital and analog connections. The unit supports various surround sound formats, including Dolby Pro Logic IIx and DTS Neo:6, and offers THX Ultra2 certification for superior audio quality. The Classic 7100 is equipped with a Motorola DSP engine and 24-bit/192-kilohertz digital-to-analog converters, ensuring high-fidelity sound reproduction.",
+                "color_options": [
+                    "Black"
+                ],
+                "specifications": {
+                    "Frequency Response": "20Hz to 35kHz",
+                    "Total Harmonic Distortion": "0.005%",
+                    "Input Sensitivity": "2000mV (line)",
+                    "Signal to Noise Ratio": "100dB (line)",
+                    "Output": "1000mV (line), 8V (Pre out Max)",
+                    "Digital Inputs": "Coaxial, Optical",
+                    "Video Connections": "Component, Composite, SVHS",
+                    "Dimensions": "437 x 406 x 150 mm",
+                    "Weight": "8.2 kg"
+                },
+                "warranty": "2 years"
+            },
+            {
+                "name": "Parasound Halo P3",
+                "brand": "Parasound",
+                "manufacturer": "Parasound Products, Inc.",
+                "price": 799,
+                "description": "The Parasound Halo P3 is a high-quality stereo preamplifier designed for audiophiles. It features a sleek aluminum façade with pale blue glowing manual controls, a built-in phono stage, and both unbalanced and balanced outputs. The P3 is known for its musicality, ease of use, and solid build quality. It includes six line inputs, one of which can serve as an MM phono stage, and offers a high-resolution headphone section. The unit also supports RS-232 control and has an external IR input and loop output jacks.",
+                "color_options": [
+                    "Black"
+                ],
+                "specifications": {
+                    "Frequency Response": "5 Hz - 55 kHz, +0/-1 dB",
+                    "Total Harmonic Distortion": "< 0.01% at 1 kHz; < 0.03% at 20 kHz",
+                    "Input Impedance": "Line: >30k Ohm; Phono: 47k Ohm",
+                    "Output Impedance": "60 Ohm",
+                    "Signal to Noise Ratio": "Line: >92 dB, A-weighted; Phono: >84 dB, unweighted",
+                    "Maximum Output": "> 8V before clipping",
+                    "Inputs": "6 line inputs, including 1 switchable to MM phono",
+                    "Outputs": "Balanced XLR, Unbalanced RCA",
+                    "Dimensions": "17-1/4\" W x 4-1/8\" H x 13-3/4\" D",
+                    "Weight": "16 lbs"
+                },
+                "warranty": "5 years"
+            },
+            {
+                "name": "Pro-Ject Pre Box RS2 Digital",
+                "brand": "Pro-Ject",
+                "manufacturer": "Pro-Ject Audio Systems",
+                "price": 1699,
+                "description": "The Pro-Ject Pre Box RS2 Digital is a high-end preamplifier, DAC, and headphone amplifier. It features a dual-mono configuration with ESS9038Q2M DAC chips, supporting up to 32-bit/768kHz PCM and DSD512. The unit offers a choice between solid-state and tube analog output stages, eight digital filters, and full MQA support. It includes a variety of digital inputs and outputs, making it a versatile addition to any high-end audio system.",
+                "color_options": ["Black", "Silver"],
+                "specifications": {
+                  "DAC": "Dual ESS9038Q2M",
+                  "Supported Formats": "PCM up to 32-bit/768kHz, DSD up to DSD512",
+                  "Digital Inputs": "USB, Optical, Coaxial, AES/EBU, I²S",
+                  "Analog Outputs": "RCA, XLR",
+                  "Headphone Output": "6.3mm",
+                  "Dimensions": "206 x 72 x 200 mm",
+                  "Weight": "2.5 kg"
+                },
+                "warranty": "2 years"
+              }
+              
+        ]
+    }
+}

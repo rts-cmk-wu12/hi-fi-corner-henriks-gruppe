@@ -13,3 +13,12 @@
     
     list-style: none;
 }
+
+.contact-menu__link {
+    display: block;
+    transition: transform 100ms ease-in-out;
+}
+
+.contact-menu__link:hover {
+    transform: scale(1.2);
+}

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hi-Fi Corner</title>
     <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="scripts/components/image-slider.js"></script>
+    <script type="module" src="scripts/components/load-random-slides.js"></script>
 </head>
 
 <body class="front-page">
@@ -64,7 +66,14 @@
         <p>Our edinburgh showroom has now moved<br>to stunning new premises on joppa road</p>
     </div>
 
-    <div class="image-slider"></div>
+    <div class="image-slider">
+        <button class="image-slider__button image-slider__button--left">&lt;</button>
+        <button class="image-slider__button image-slider__button--right">&gt;</button>
+
+        <div class="image-slider__slide-container"></div>
+
+        
+    </div>
 
     <div class="social-buttons">
         <a href="" class="social-buttons__link">

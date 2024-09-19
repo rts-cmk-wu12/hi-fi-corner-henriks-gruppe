@@ -11,3 +11,11 @@ body.front-page {
     background-blend-mode: overlay;
     background-color: #76665b;
 }
+
+.image-slider__button {
+    color: var(--image-slider-button-color) !important;
+}
+
+.image-slider__label {
+    color: var(--image-slider-label-color);
+}
