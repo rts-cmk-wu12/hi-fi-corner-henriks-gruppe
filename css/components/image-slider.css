@@ -1,5 +1,5 @@
 .image-slider {
-    min-height: 41rem;
+    height: 41rem;
     background-color: white;
     overflow-x: hidden;
     display: flex;

@@ -1,27 +1,47 @@
 :root {
+    
+    --color-white: white;
+    --color-black: black;
+    --color-gray: #999999;
+    --color-light-gray: #cccccc;
+    --color-gold: #a39161;
+    --color-dark-gold: #3c3523;
+    --color-light-gold: #c0ab9f;
+    
+    
     --default-font: 'Museo Sans Rounded', sans-serif;
-
+    --default-background-color: black;
     --default-padding-x: 2rem;
     
-    --primary-text-color: white;
-    --primary-link-color: white;
-    --primary-link-hover-color: #a39161;
-    --primary-heading-color: white;
+    --primary-text-color: var(--color-white);
+    --primary-link-color: var(--color-white);
+    --primary-heading-color: var(--color-white);
+    --primary-top-menu-color: var(--color-gray);
+    
+    --secondary-text-color: var(--color-black);
+    --secondary-heading-color: var(--color-gold);
+    --secondary-link-color: var(--color-gold);
 
-    --secondary-text-color: black;
-    --accent-heading-color: #a39161;
+    --accent-heading-color: var(--color-gold);
 
-    --image-slider-button-color: #c0ab9f;
+    --cart-item-color: var(--color-white);
+    --cart-item-background: var(--color-gold);
 
-    --navigation-border-color: #3c3523;
-    --navigation-background-color: black;
+    --image-slider-button-color: var(--color-light-gold);
+
+    --navigation-border-color: var(--color-dark-gold);
+    --navigation-background-color: var(--color-black);
 
     --navigation-button-border-color: #0f7aed;
     --navigation-button-background: linear-gradient(#32adec, #1391eb);
 
-    --footer-background-color: #a39161;
+    --product-button-background-color: var(--color-gold);
+    --product-button-text-color: var(--color-white);
+    --product-border-color: var(--color-light-gray);
 
-
+    --footer-background-color: var(--color-gold);
 
     --menu-height: 4.25rem;
+
+    --page-margin-x: 6rem;
 }

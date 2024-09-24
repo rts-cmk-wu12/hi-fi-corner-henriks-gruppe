@@ -1,4 +1,5 @@
 .nav-menu {
+    width: 100%;
     height: var(--menu-height);
     display: flex;
     justify-content: center;
@@ -26,16 +27,16 @@
 .nav-menu__link--highlighted {
     display: block;
     text-decoration: none;
-    color: var(--primary-link-hover-color);
+    color: var(--secondary-link-color);
 
 }
 
 .nav-menu__link:not(.nav-menu__link--highlighted):hover {
     transform: scale(1.1);
-    color: var(--primary-link-hover-color);
+    color: var(--secondary-link-color);
 }
 
 .nav-menu__link:active {
     transform: scale(1);
-    transition:none;
+    transition: none;
 }
