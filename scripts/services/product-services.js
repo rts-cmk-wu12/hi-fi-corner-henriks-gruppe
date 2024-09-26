@@ -13,6 +13,7 @@ export async function getProducts(category = null, options = {}) {
 }
 
 export async function getProductById(id) {
+    if (!id) return null;
     const response = await fetch(`${API_URL}/products/${id}`);
     return response.json();
 }

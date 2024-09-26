@@ -1,0 +1,109 @@
+.order-form {
+    border: 1px solid var(--product-border-color);
+    background-color: var(--product-background-color);
+    display: grid;
+    align-items: center;
+    gap: .5rem;
+    grid-column: span 2;
+    grid-template-columns: auto auto 1fr 2fr;
+
+    text-align: center;
+}
+
+.order-form__options {
+    background-color: var(--product-options-background-color);
+    grid-column: span 4;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 100%;
+    border-bottom: 1px solid var(--product-border-color);
+}
+
+.order-form__option-title {
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: var(--secondary-heading-color);
+    text-align: left;
+    font-weight: bold;
+    display: flex;
+}
+
+.order-form__required {
+    color: red;
+    font-weight: normal;
+    font-size: .8rem;
+    margin-left: 1ch;
+}
+
+.order-form__required + .order-form__required:last-child {
+    margin-left: auto;
+}
+
+.order-form__option-label{
+    display: flex;
+    gap: .5rem;
+    background-color: var(--product-background-color);
+    min-width: 30%;
+    padding: .6rem 1rem;
+
+    width: min-content;
+}
+
+.order-form__label {
+    padding-left: 1rem;
+}
+
+.order-form__input {
+    display: block;
+    padding: .2rem .2rem .2rem 1rem;
+    width: calc(2ch + 1.8rem);
+    height: 100%;
+
+    border: 1px solid var(--product-border-color);
+}
+
+.order-form__button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background-color: var(--product-button-background-color);
+    color: var(--product-button-text-color);
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-wrap: nowrap;
+    height: 100%;
+    font-size: 1.2rem;
+}
+
+.order-form__button:hover {
+    filter: brightness(1.1);
+}
+
+.order-form__button:active {
+    transform: scale(.95);
+}
+
+.order-form__seperator, .paypal-button {
+    grid-column: 3;
+    margin: auto;
+}
+
+.order-form__seperator {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.order-form__seperator::before, .order-form__seperator::after {
+    content: "-";
+}
+
+.order-form__ruler {
+    grid-column: span 4;
+    margin: 1rem 1rem 2rem 1rem;
+
+}

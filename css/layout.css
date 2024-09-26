@@ -7,6 +7,9 @@ body {
     font-family: var(--default-font);
 }
 
+a {
+    text-decoration: none;
+}
 
 body.front-page {
     background-image: url(../images/layout/speaker.jpg);

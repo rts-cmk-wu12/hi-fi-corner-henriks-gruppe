@@ -4,7 +4,6 @@ const imageSliderContainer = imageSliderElement.querySelector('.image-slider__sl
 const buttonNext = imageSliderElement.querySelector('.image-slider__button--right');
 const buttonPrevious = imageSliderElement.querySelector('.image-slider__button--left');
 
-
 const MINIMUM_STEP = 4;
 const TOTAL_STEPS = 20;
 

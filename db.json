@@ -2,7 +2,7 @@
     "products": [
         {
             "id": 1,
-            "name": "Creek OBH-22 Passive Preamp",
+            "name": "OBH-22 Passive Preamp",
             "category": "Amplifiers",
             "subcategory": "Preamplifiers",
             "brand": "Creek Audio",
@@ -13,9 +13,10 @@
                 "front.jpg",
                 "back.jpg"
             ],
-            "color_options": [
-                "Black"
-            ],
+            "options": {
+                "finish": ["Black", "Silver"],
+                "remote": ["Yes", "No"]
+            },
             "specifications": {
                 "Input Impedance": "<20k Ohm",
                 "Output Impedance": "20k Ohm",
@@ -31,7 +32,7 @@
         },
         {
             "id": 2,
-            "name": "Parasound Classic 7100",
+            "name": "Classic 7100",
             "category": "Amplifiers",
             "subcategory": "Preamplifiers",
             "brand": "Parasound",
@@ -42,9 +43,9 @@
                 "front.jpg",
                 "back.jpg"
             ],
-            "color_options": [
-                "Black"
-            ],
+            "options": {
+                "finish": ["Black", "Silver"]
+            },
             "specifications": {
                 "Frequency Response": "20Hz to 35kHz",
                 "Total Harmonic Distortion": "0.005%",
@@ -60,7 +61,7 @@
         },
         {
             "id": 3,
-            "name": "Parasound Halo P3",
+            "name": "Halo P3",
             "category": "Amplifiers",
             "subcategory": "Preamplifiers",
             "brand": "Parasound",
@@ -71,9 +72,9 @@
                 "front.jpg",
                 "back.jpg"
             ],
-            "color_options": [
-                "Black"
-            ],
+            "options": {
+                "finish": ["Black", "Silver"]
+            },
             "specifications": {
                 "Frequency Response": "5 Hz - 55 kHz, +0/-1 dB",
                 "Total Harmonic Distortion": "< 0.01% at 1 kHz; < 0.03% at 20 kHz",
@@ -90,7 +91,7 @@
         },
         {
             "id": 4,
-            "name": "Pro-Ject Pre Box RS2 Digital",
+            "name": "Pre Box RS2 Digital",
             "category": "Amplifiers",
             "subcategory": "Preamplifiers",
             "brand": "Pro-Ject",
@@ -101,10 +102,9 @@
                 "back.jpg"
             ],
             "description": "The Pro-Ject Pre Box RS2 Digital is a high-end preamplifier, DAC, and headphone amplifier. It features a dual-mono configuration with ESS9038Q2M DAC chips, supporting up to 32-bit/768kHz PCM and DSD512. The unit offers a choice between solid-state and tube analog output stages, eight digital filters, and full MQA support. It includes a variety of digital inputs and outputs, making it a versatile addition to any high-end audio system.",
-            "color_options": [
-                "Black",
-                "Silver"
-            ],
+            "options": {
+                "finish": ["Black", "Silver"]
+            },
             "specifications": {
                 "DAC": "Dual ESS9038Q2M",
                 "Supported Formats": "PCM up to 32-bit/768kHz, DSD up to DSD512",

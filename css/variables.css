@@ -1,23 +1,24 @@
 :root {
-    
+
     --color-white: white;
     --color-black: black;
-    --color-gray: #999999;
-    --color-light-gray: #cccccc;
+    --color-gray: #d2d2d2;
+    --color-dark-gray: #999999;
+    --color-light-gray: #e1e1e1;
     --color-gold: #a39161;
     --color-dark-gold: #3c3523;
     --color-light-gold: #c0ab9f;
-    
-    
+
+
     --default-font: 'Museo Sans Rounded', sans-serif;
     --default-background-color: black;
     --default-padding-x: 2rem;
-    
+
     --primary-text-color: var(--color-white);
     --primary-link-color: var(--color-white);
     --primary-heading-color: var(--color-white);
     --primary-top-menu-color: var(--color-gray);
-    
+
     --secondary-text-color: var(--color-black);
     --secondary-heading-color: var(--color-gold);
     --secondary-link-color: var(--color-gold);
@@ -35,9 +36,11 @@
     --navigation-button-border-color: #0f7aed;
     --navigation-button-background: linear-gradient(#32adec, #1391eb);
 
+    --product-options-background-color: var(--color-white);
     --product-button-background-color: var(--color-gold);
     --product-button-text-color: var(--color-white);
-    --product-border-color: var(--color-light-gray);
+    --product-border-color: var(--color-gray);
+    --product-background-color: var(--color-light-gray);
 
     --footer-background-color: var(--color-gold);
 

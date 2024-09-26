@@ -28,7 +28,7 @@ if (breadcrumb) {
     if (productId) {
         const product = await getProductById(productId);
 
-        productLink.textContent = product.name;
+        productLink.textContent = `${product.brand} ${product.name}`;
         productLink.classList.add('breadcrumb__link--active');
 
         productLink.href = `/details.html?category=${category}&product=${productId}`;

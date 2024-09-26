@@ -1,4 +1,5 @@
 import { getProductById } from '../services/product-services.js';
+import { toFileName } from '../utils/file-utils.js';
 
 const imageContainer = document.querySelector('.product-gallery__image-container');
 const thumbnailContainer = document.querySelector('.product-gallery__thumbnails');
@@ -9,16 +10,18 @@ const product = await getProductById(productId);
 
 const images = product.images || [];
 
-imageContainer.style.backgroundImage = `url(images/products/${product.category}/${product.name.toLowerCase().replace(/ /g, '-')}/${images[0]})`;
+const imagePaths = images.map(fileName => `images/products/${product.category}/${toFileName(product.brand)}-${toFileName(product.name)}/${fileName}`);
 
-images.forEach(image => {
+imageContainer.style.backgroundImage = `url(${imagePaths[0]})`;
+
+images.forEach((image, index) => {
     const thumbnail = document.createElement('img');
-    thumbnail.src = `images/products/${product.category}/${product.name.toLowerCase().replace(/ /g, '-')}/${image}`;
+    thumbnail.src = imagePaths[index];
     thumbnail.alt = product.name;
     thumbnail.classList.add('product-gallery__thumbnail');
     thumbnailContainer.appendChild(thumbnail);
 
     thumbnail.addEventListener('click', () => {
-        imageContainer.style.backgroundImage = `url(images/products/${product.category}/${product.name.toLowerCase().replace(/ /g, '-')}/${image})`;
+        imageContainer.style.backgroundImage = `url(${imagePaths[index]})`;
     });
 });

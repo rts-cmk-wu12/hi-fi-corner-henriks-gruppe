@@ -3,6 +3,7 @@
     display: flex;
     gap: .8rem;
     font-size: .8rem;
+    margin-bottom: 1rem;
 }
 
 .breadcrumb__link {
