@@ -1,0 +1,41 @@
+.product-search {
+    display: flex;
+    align-items: stretch;
+    height: 2rem;
+    margin-right: 2rem;
+    width: 100%;
+    max-width: 25rem;
+}
+
+.product-search__input {
+    padding: .2rem;
+    border-radius: 3px 0 0 3px;
+    width: 100%;
+
+    border: 1px solid var(--primary-top-menu-color);
+    border-right: none;
+    outline: none;
+
+    background-color: white;
+}
+
+.product-search__input::placeholder {
+    color: var(--primary-top-menu-color);
+}
+
+.product-search__button {
+    padding: .5rem;
+    border-radius: 0 3px 3px 0;
+
+    border: 1px solid var(--primary-top-menu-color);
+    border-left: none;
+    color: var(--primary-text-color);
+    cursor: pointer;
+    outline: none;
+
+    background-color: white;
+}
+
+.product-search__icon {
+    height: 100%;
+}

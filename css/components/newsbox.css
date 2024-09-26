@@ -1,0 +1,17 @@
+.newsbox {
+    background-image: url(../../images/layout/wavy-lines.jpg);
+    background-color: #564f35;
+    min-height: 30rem;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+}

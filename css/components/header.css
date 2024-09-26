@@ -1,0 +1,9 @@
+@import url(top-menu.css);
+@import url(subscribe-button.css);
+@import url(nav-menu.css);
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}

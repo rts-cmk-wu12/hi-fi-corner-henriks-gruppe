@@ -1,0 +1,33 @@
+.promoted {
+    display: flex;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.promoted__link {
+    min-height: 30vh;
+    max-width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.promoted__title {
+    color: var(--accent-heading-color);
+    font-weight: 500;
+
+    border: 1px solid white;
+
+    font-size: 1.4rem;
+    padding: .1rem .6rem;
+    margin: .4rem;
+}
+
+.promoted__text {
+    color: var(--primary-text-color);
+    font-size: .8rem;
+}
