@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi-Fi Corner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="scripts/components/product-search.js"></script>
+    <script type="module" src="scripts/components/cart.js"></script>
+    <script type="module" src="scripts/components/breadcrumb.js"></script>
+    <script type="module" src="scripts/components/product-gallery.js"></script>
+    <script type="module" src="scripts/components/product-details.js"></script>
+    <script type="module" src="scripts/components/order-form.js"></script>
+</head>
+
+<body class="details">
+
+    <header class="header">
+        <div class="top-menu">
+            <a href="/" class="top-menu__logo-link">
+                <img class="top-menu__image" src="images/layout/logo-white.svg" alt="Hi-Fi Corner logo">
+            </a>
+            <form action="shop.html" class="product-search">
+                <input type="search" class="product-search__input" list="product-search__results" name="search" placeholder="Search entire store here..." autocomplete="off">
+                <button class="product-search__button">
+                    <img class="product-search__icon" src="images/icons/magnifying-glass-solid.svg" alt="Search">
+                </button>
+
+                <datalist id="product-search__results"></datalist>
+
+            </form>
+            <ul class="top-menu__list">
+                <li class="top-menu__item">
+                    <a href="" class="top-menu__link">
+                        <img class="top-menu__icon top-menu__icon--small" src="images/icons/person-fill.svg" alt="">Account
+                    </a>
+                </li>
+                <li class="top-menu__item">
+                    <a href="" class="top-menu__link cart">
+                        <img class="top-menu__icon top-menu__icon--small empty" src="images/icons/shopping-cart-line.svg" alt="">
+                        <img class="top-menu__icon top-menu__icon--small full" src="images/icons/shopping-cart-fill.svg" alt="">Cart
+                    </a>
+                </li>
+                <li class="top-menu__item">
+                    <a href="" class="top-menu__link"><img class="top-menu__icon" src="images/icons/map-pin.svg" alt="Find Us"></a>
+                </li>
+                <li class="top-menu__item">
+                    <a href="" class="top-menu__link"><img class="top-menu__icon" src="images/icons/phone.svg" alt="Call Us"></a>
+                </li>
+                <li class="top-menu__item">
+                    <a href="" class="top-menu__link"><img class="top-menu__icon" src="images/icons/envelope.svg" alt="E-mail Us"></a>
+                </li>
+            </ul>
+        </div>
+
+        <nav class="nav-menu">
+            <ul class="nav-menu__list">
+                <li class="nav-menu__item">
+                    <a href="/" class="nav-menu__link">Home</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="about.html" class="nav-menu__link">About Us</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="brands.html" class="nav-menu__link">Brands</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="blog.html" class="nav-menu__link">Blog</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="events.html" class="nav-menu__link">Events</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="shop.html" class="nav-menu__link  nav-menu__link--highlighted">Shop</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="contact.html" class="nav-menu__link">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-details">
+        <div class="breadcrumb"></div>
+
+        <div class="banner"></div>
+
+        <div class="product-details__container">
+            <div class="product-gallery">
+                <div class="product-gallery__image-container"></div>
+                <h2 class="product-gallery__title">More Views</h2>
+                <div class="product-gallery__thumbnails"></div>
+            </div>
+
+            <div class="product-details__info">
+                <h1 class="product-details__title">Product Title</h1>
+                <a class="product-details__other-products" href="#">See other products</a>
+                <p class="product-details__price">£0.00</p>
+                <p class="product-details__description">Product Description</p>
+
+                <ul class="product-details__actions">
+                    <li class="product-details__item">
+                        <button class="product-details__button">Ask a question</button>
+                    </li>
+                    <li class="product-details__item">
+                        <button class="product-details__button">Part exchange</button>
+                    </li>
+                    <li class="product-details__item">
+                        <button class="product-details__button">Pay by finance</button>
+                    </li>
+                    <li class="product-details__item">
+                        <button class="product-details__button">Seen a better price?</button>
+                    </li>
+                </ul>
+
+                <form class="order-form">
+                    <label for="quantity" class="order-form__label">Qty:</label>
+                    <input type="number" name="quantity" id="quantity" class="order-form__input" value="1" min="1" max="9">
+                    <button class="order-form__button">Add to cart</button>
+
+                    <p class="order-form__seperator">Or</p>
+                    <button class="paypal-button"></button>
+
+                    <hr class="order-form__ruler">
+                </form>
+
+                <section class="product-details__additional">
+                    <h3 class="product-details__title">Additional Information</h3>
+
+                    <table class="product-details__table">
+                        <tr>
+                            <th>Manufacturer</th>
+                            <td class="product-details__manufacturer"></td>
+                        </tr>
+                        <tr>
+                            <th>Manufacturer Link</th>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Free Warrenty</th>
+                            <td>3 years</td>
+                        </tr>
+                        <tr>
+                            <th>Delivery Charge</th>
+                            <td>Free</td>
+                        </tr>
+                        <tr>
+                            <th>Delivery Time</th>
+                            <td>1 - 5 Working Days</td>
+                        </tr>
+                        <tr>
+                            <th>Card Surcharges</th>
+                            <td>No</td>
+                        </tr>
+                    </table>
+                </section>
+
+            </div>
+
+            <section class="specifications">
+                <h2 class="specifications__title">Description</h2>
+                <table class="specifications__table">
+                    <tbody class="specifications__table-body"></tbody>
+                </table>
+            </section>
+
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+.product-details {
+    background-color: white;
+    padding: 2rem 1rem;
+    margin: 0 var(--page-margin-x);
+}
+
+.product-details__container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2rem;
+}
+
+.product-details__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: min-content;
+    gap: 1rem;
+    min-width: 23rem;
+}
+
+.product-details__title {
+    text-transform: uppercase;
+    color: var(--secondary-heading-color);
+    font-size: 1.5rem;
+    grid-column: span 2;
+}
+
+.product-details__other-products {
+    color: var(--secondary-link-color);
+    text-decoration: none;
+}
+
+.product-details__price {
+    color: var(--secondary-heading-color);
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: right;
+}
+
+.product-details__description {
+    color: var(--secondary-text-color);
+    font-size: 1rem;
+    grid-column: span 2;
+    text-align: justify;
+}
+
+.product-details__actions {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+    flex-wrap: wrap;
+    height: min-content;
+    grid-column: span 2;
+}
+
+.product-details__button {
+    appearance: none;
+    text-wrap: nowrap;
+    border: none;
+    outline: none;
+    background-color: var(--product-button-background-color);
+    color: var(--product-button-text-color);
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.product-details__button:hover {
+    filter: brightness(1.1);
+}
+
+.product-details__button:active {
+    transform: scale(.95);
+}
+
+.product-details__additional {
+    text-align: left;
+    grid-column: span 2;
+}
+
+.product-details__table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid var(--product-border-color);
+    
+}
+
+.product-details__table th, .product-details__table td {
+    padding: 1rem .5rem;
+    border: 1px solid var(--product-border-color);
+}
+
+.product-details__table th {
+    text-wrap: nowrap;
+    background-color: var(--product-background-color);
+}
+
+
+.product-details__table td {
+    width: 100%;
+}
+
+.product-details__table td a {
+    color: var(--secondary-link-color);
+}
+

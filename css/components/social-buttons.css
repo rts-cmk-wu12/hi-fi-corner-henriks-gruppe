@@ -1,0 +1,41 @@
+.social-buttons {
+    display: flex;
+}
+
+.social-buttons__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    color: var(--primary-link-color);
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+
+.social-buttons__image {
+    width: 100%;
+    position: absolute;
+    filter: brightness(0.5) blur(1px);
+    transform: scale(1.05);
+    transition: inherit;
+}
+
+.social-buttons__link:hover .social-buttons__image {
+    transform: scale(1.2);
+    filter: brightness(1);
+}
+
+.social-buttons__icon {
+    width: 30%;
+    filter: invert();
+    
+    z-index: 1;
+    transition: inherit;
+}
+
+.social-buttons__link:hover .social-buttons__icon {
+    transform: scale(1.5);
+}

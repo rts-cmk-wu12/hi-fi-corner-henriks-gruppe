@@ -1,0 +1,20 @@
+.breadcrumb {
+    color: black;
+    display: flex;
+    gap: .8rem;
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+
+.breadcrumb__link {
+    color: var(--secondary-link-color);
+    text-decoration: none;
+}
+
+.breadcrumb__link:hover {
+    color: var(--secondary-text-color);
+}
+
+.breadcrumb__link--active {
+    color: var(--secondary-text-color);
+}

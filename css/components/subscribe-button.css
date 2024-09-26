@@ -1,0 +1,35 @@
+.subscribe-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: var(--navigation-button-background);
+
+    outline: none;
+    padding: 4px 10px;
+
+    border-radius: 4px;
+    border: none;
+
+    color: var(--primary-link-color);
+
+    cursor: pointer;
+}
+
+.subscribe-button:hover { 
+    filter: brightness(1.1);
+}
+
+.subscribe-button:active {
+    transform: scale(.99);
+}
+
+.subscribe-button > img {
+    height: 1rem;
+    margin-right: 4px;
+}
+
+.subscribe-button > span {
+    border-left: 1px solid #108de3;
+    padding-left: 4px;
+}
